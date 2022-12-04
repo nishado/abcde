@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Spline+Sans:wght@400;500;600;700&display=swap');
+
+.col-lg-6{
+    overflow: hidden;
+}
+.intro-text {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.intro-text p {
+    max-width: 500px;
+    margin: 16px auto 0 auto;
+}
+
+.navbar{
+    border-bottom: 1px solid lightgray;
+}
+
+.shadow-on-hover{
+    transition: all 0.4s;
+
+
+}
+.shadow-on-hover:hover{
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+
+}
+
+#menu .nav-pills .nav-link{
+    border-radius: 100px;
+    margin-left: 10-px;
+    margin-right: 10px;
+    color: #222;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+#menu .nav-pills .nav-link.active{
+    background-color: #F58d17;
+    color: white;
+
+}
+.cardss
+{
+    height: 100px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit:cover
+}
+
+.mealcontents h5{
+    text-align: center;
+}
+.fa-solid{
+    color: #F58d17;
+}
+/* Team */
+.team-member img {
+    max-width: 200px;
+   
+    border-radius: 50%;
+}
+
+
+#reservation input.form-control {
+    height: 47px;
+}
+footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/cover3.jpg);
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.footer-top {
+    margin-bottom: 31px;
+}
+
+footer p,
+footer a{
+    color: rgba(255, 255, 255, 0.75);
+}
+
+footer .social-links a {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+footer img {
+    max-width: 175px;
+}
+
+.footer-bottom {
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+.card-body{
+    text-align: center;
+}
